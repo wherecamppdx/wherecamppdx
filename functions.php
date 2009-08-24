@@ -508,19 +508,19 @@ add_filter( 'archive_meta', 'wpautop' );
 function wordcamp_global_nav() {
   $active['news'] = !is_page() ? ' active' : '';
   $active['about'] = is_page('about') ? " class='active'" : '';
-  $active['schedule'] = is_page('schedule') ? " class='active'" : '';
+  $active['specifics'] = is_page('specifics') ? " class='active'" : '';
+  $active['sessions'] = is_page('sessions') ? " class='active'" : '';
   $active['attendees'] = is_page('attendees') ? " class='active'" : '';
   $active['sponsorships'] = is_page('sponsorships') ? " class='active'" : '';
-  $active['rsvp'] = is_page('rsvp') ? " active" : '';
   return <<<QQ
   <div id='menu'>
     <ul>
       <li><a href='/' class='first{$active['news']}'>News</a></li>
       <li><a href='/about/'{$active['about']}>About</a></li>
-      <li><a href='/schedule/'{$active['schedule']}>Schedule</a></li>
-      <li><a href='/attendees/'{$active['attendees']}>Attend</a></li>
-      <li><a href='/sponsorships/'{$active['sponsorships']}>Sponsorship</a></li>
-      <li><a href='http://upcoming.yahoo.com/event/1090645' class='last{$active['rsvp']}'>RSVP</a></li>
+      <li><a href='/specifics/'{$active['specifics']}>Specifics</a></li>
+      <li><a href='/sessions/' class='{$active['sessions']}'>Sessions</a></li>
+      <li><a href='/attendees/' class='{$active['attendees']}'>Attendees</a></li>
+      <li><a href='/sponsorships/'{$active['sponsorships']} class='last{$active['sponsorships']}'>Sponsors</a></li>
     </ul>
   </div>
 QQ;
