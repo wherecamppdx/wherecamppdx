@@ -418,3 +418,12 @@ div.sidebar ul.xoxo {
 #sponsorspace img {
 	border: 0;
 }
+
+/* Put hentry's contents above header, so its content can be clicked. */
+#header {
+  z-index: 1;
+}
+.hentry {
+  z-index: 10;
+}
+
