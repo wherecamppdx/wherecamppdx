@@ -294,7 +294,7 @@ div#menu ul a:hover {
 	position: absolute;
 	left: 75px;
 	top: 200px;
-	padding: 1em 1em 3em 1em;
+	padding: 1em 1em 0 1em;
 	z-index: 1;
 	-moz-border-radius: .5em;
 	-webkit-border-radius: .5em;
