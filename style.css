@@ -17,6 +17,10 @@ TAGS: sandbox, microformats, hcard, hatom, xoxo, widgets, blank slate, starter t
 
 @import url('examples/2c-l.css');
 
+div#content {
+	margin: 45px 0 0 200px;
+}
+
 /* Just some example content */
 div.skip-link {
 position:absolute;
@@ -290,7 +294,7 @@ div#menu ul a:hover {
 	position: absolute;
 	left: 75px;
 	top: 200px;
-	padding: 70px 1em 3em 1em;
+	padding: 1em 1em 3em 1em;
 	z-index: 1;
 	-moz-border-radius: .5em;
 	-webkit-border-radius: .5em;
@@ -407,12 +411,19 @@ div.sidebar ul.xoxo {
 }
 
 #sponsorspace {
+	color: black;
 	background: #fff;	
 	text-align: center;
 	-moz-border-radius: .5em;
 	-webkit-border-radius: .5em;
 	padding: 1em 0;
-	margin-top: .5em;
+	margin-top: 1em;
+}
+
+p.sponsor_label {	
+	text-align: left;
+	text-indent: 1em;
+	font-weight: bold;
 }
 
 #sponsorspace img {
