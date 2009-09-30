@@ -520,7 +520,8 @@ function wordcamp_global_nav() {
       <li><a href='/specifics/'{$active['specifics']}>Specifics</a></li>
       <li><a href='/sessions/' class='{$active['sessions']}'>Sessions</a></li>
       <li><a href='/attendees/' class='{$active['attendees']}'>Attendees</a></li>
-      <li><a href='/sponsorships/'{$active['sponsorships']} class='last{$active['sponsorships']}'>Sponsors</a></li>
+      <li><a href='/sponsorships/'{$active['sponsorships']} class='{$active['sponsorships']}'>Sponsors</a></li>
+      <li><a href='/wiki/2009' class='last'>Wiki</a></li>
     </ul>
   </div>
 QQ;

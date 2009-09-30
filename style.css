@@ -259,7 +259,7 @@ div#menu {
 div#menu ul a {
 	line-height: 2.5em;
 	display:block;
-	padding: 0 1em;
+	padding: 0 .7em;
 	text-decoration:none;
 	border-left: 1px solid #ccc;
 	color: #3B789F;
