@@ -45,7 +45,7 @@ clear:both;
 }
 
 div#container,div#primary {
-margin-top:2em;
+margin-top:1em;
 }
 
 form#commentform .form-label {
@@ -153,7 +153,6 @@ text-align:right;
 
 div.sidebar h3 {
 font-size:1.2em;
-font-family: Garamond, "Times New Roman", Times, serif
 }
 
 div.sidebar input#s {
@@ -213,14 +212,14 @@ body {
 }
 
 #wrapper {
-	width: 900px;
-	margin: 20px auto;
+	width: 960px;
+	margin: 0 auto 20px;
 	position: relative;
 }
 
 #header {
-	background: url('i/header.png') no-repeat 80px 40px;
-	height: 256px;
+	background: url('i/header.png') no-repeat 115px 7px;
+	height: 246px;
 	position: relative;
 	z-index: 5;
 }
@@ -246,7 +245,7 @@ body {
 
 div#menu {
 	position: absolute;
-	top: 0px;
+	top: 20px;
 	right: 0;
 	/* -webkit-box-shadow: -10px 8px 20px rgba(0, 0, 0, 0.7);*/
 	/* -moz-box-shadow: -10px 8px 20px rgba(0, 0, 0, 0.7);*/
@@ -262,9 +261,8 @@ div#menu ul a {
 	text-decoration:none;
 	border-left: 1px solid #ccc;
 	color: #10112e;
-	background: #e6edc0;
-  background: rgba(230, 237, 192,0.8);
-	font-family: "Lucida Grande", "Lucida Sans", "Verdana", sans-serif;
+	background: #fff;
+  background: rgba(255, 255, 255,0.8);
 	font-weight: bold;
 }
  
@@ -285,20 +283,21 @@ div#menu ul a.last {
 
 div#menu ul a.active {
 	background: #fff;
+  color: #43457c;
 }
 
 div#menu ul a:hover {
-	background: #f6f6f6;
+	background: #fff;
 }
 
 #content {
-  background: #e6edc0;
-  background: rgba(230, 237, 192,0.8);
-	width: 620px;
+  /* background: #e6edc0;*/
+  /* background: rgba(230, 237, 192,0.8);*/
+	width: 685px;
 	position: absolute;
 	left: 75px;
-	top: 240px;
-	padding: .5em .5em 0 .5em;
+	top: 233px;
+	/* padding: .5em .5em 0 .5em;*/
 	z-index: 1;
 	-moz-border-radius: .5em;
 	-webkit-border-radius: .5em;
@@ -372,7 +371,6 @@ div.entry-date {
 	border-bottom: 1px solid #ccc;
 	background-color: #10112e;
 	font-size: .7em;
-	font-family: "Lucida Grande", "Lucida Sans", Verdana, sans-serif;
 	color: #fff;
 }
 
@@ -383,7 +381,6 @@ h2.page-title {
 h2.entry-title a, h3.entry-title a {
 	color: #10112e;
 	text-decoration: none;
-	font-family: Garamond, "Times New Roman", Times, serif
 }
 
 div.sidebar {

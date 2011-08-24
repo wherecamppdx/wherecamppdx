@@ -159,7 +159,7 @@ function sandbox_post_class( $print = true ) {
 	$c = array( 'hentry', "p$sandbox_post_alt", $post->post_type, $post->post_status );
 
 	// Author for the post queried
-	$c[] = 'author-' . sanitize_title_with_dashes(strtolower(get_the_author('login')));
+	// $c[] = 'author-' . sanitize_title_with_dashes(strtolower(get_the_author('login')));
 
 	// Category for the post queried
 	foreach ( (array) get_the_category() as $cat )
