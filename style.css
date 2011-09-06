@@ -281,6 +281,21 @@ div#menu ul a.last {
 	-webkit-border-bottom-right-radius: .5em;
 }
 
+div#menu ul a.register {
+  margin-left: .5em;
+	-moz-border-radius: .5em;
+	-webkit-border-radius: .5em;
+  background: #222688;
+  background: rgba(34,38,136,0.75);
+  border: 0;
+  color: #fff;
+}
+
+div#menu ul a.register:hover {
+  background: #222688;
+  background: rgba(34,38,136,0.9);
+}
+
 div#menu ul a.active {
 	background: #fff;
   color: #43457c;
