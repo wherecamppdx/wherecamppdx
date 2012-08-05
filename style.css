@@ -45,7 +45,7 @@ clear:both;
 }
 
 div#container,div#primary {
-margin-top:1em;
+/* margin-top:1em;*/
 }
 
 form#commentform .form-label {
@@ -207,7 +207,7 @@ padding:0;
 
 
 body {
-	background: #42447e url(i/background.jpg) no-repeat scroll center top;
+	background: #f6f4cc url(i/background.jpg) no-repeat scroll center top;
 	font-family: "Helvetica Neue", "Arial", "Helvetica"
 }
 
@@ -222,6 +222,13 @@ body {
 	height: 246px;
 	position: relative;
 	z-index: 5;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #header {
+    background-image: url('i/header@2x.png');
+    background-size: 694px 219px;
+  }
 }
 
 #blog-title {
@@ -285,20 +292,20 @@ div#menu ul a.register {
   margin-left: .5em;
 	-moz-border-radius: .5em;
 	-webkit-border-radius: .5em;
-  background: #222688;
-  background: rgba(34,38,136,0.75);
+  background: #000;
+  background: rgba(0,0,0,0.75);
   border: 0;
   color: #fff;
 }
 
 div#menu ul a.register:hover {
-  background: #222688;
-  background: rgba(34,38,136,0.9);
+  background: #a00;
+  /* background: rgba(236,144,0,0.75);*/
 }
 
 div#menu ul a.active {
 	background: #fff;
-  color: #43457c;
+  color: #a00;
 }
 
 div#menu ul a:hover {
@@ -311,7 +318,7 @@ div#menu ul a:hover {
 	width: 685px;
 	position: absolute;
 	left: 75px;
-	top: 233px;
+	top: 200px;
 	/* padding: .5em .5em 0 .5em;*/
 	z-index: 1;
 	-moz-border-radius: .5em;
@@ -374,17 +381,17 @@ div.entry-meta {
 
 
 a:link {
-	color: #07579f;
+	color: #00a4cc;
 }
 
 a:visited {
-	color: #592574;
+	color: #951faa;
 }
 
 div.entry-date {
 	padding: .5em 1em;
 	border-bottom: 1px solid #ccc;
-	background-color: #10112e;
+	background-color: #222;
 	font-size: .7em;
 	color: #fff;
 }
@@ -404,18 +411,22 @@ div.sidebar {
 }
 
 div.sidebar a {
-	color: #ccccff;
+	color: #fbfbb3;
 }
 
 div.sidebar ul.xoxo {
 	display: block;
 	padding: 1em;
-	background-color: #10112e;
-  background-color: rgba(16, 17, 46, 0.9);
+	background-color: #222;
+  background-color: rgba(34, 34, 34, 0.9);
 	width: 200px;
 	margin: 0 auto 1em auto;
 	-moz-border-radius: .5em;
 	-webkit-border-radius: .5em;
+}
+
+div.sidebar ul.xoxo ul.xoxo {
+  background: transparent;
 }
 
 
