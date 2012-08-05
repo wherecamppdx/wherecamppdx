@@ -521,7 +521,7 @@ function wordcamp_global_nav() {
       <li><a href='/wiki/2011/sessions/' class='{$active['sessions']}'>Sessions</a></li>
       <li><a href='/sponsorships/'{$active['sponsorships']} class='{$active['sponsorships']}'>Sponsors</a></li>
       <li><a href='/wiki/2011' class='last'>Wiki</a></li>
-      <li><a href='http://wherecamppdx11.eventbrite.com/' class='register'>Register now!</a></li>
+      <li><a href='http://wherecamppdx5.eventbrite.com/' class='register'>Register now!</a></li>
     </ul>
   </div>
 QQ;
