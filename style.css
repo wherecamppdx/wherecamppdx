@@ -388,7 +388,7 @@ a:link, #sponsorspace a:link {
 	color: #00a4cc;
 }
 
-a:visited, #sponsorspace, a:visited {
+a:visited, #sponsorspace a:visited {
 	color: #951faa;
 }
 
