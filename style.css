@@ -180,6 +180,10 @@ margin-top: .5em;
 
 }
 
+div.sidebar.wiki ul ul li {
+  list-style: none
+}
+
 div.sidebar ul ul ul {
 margin:0 0 0 0.5em;
 }
@@ -380,11 +384,11 @@ div.entry-meta {
 }
 
 
-a:link {
+a:link, #sponsorspace a:link {
 	color: #00a4cc;
 }
 
-a:visited {
+a:visited, #sponsorspace, a:visited {
 	color: #951faa;
 }
 
@@ -444,8 +448,7 @@ div.sidebar ul.xoxo ul.xoxo {
 	text-align: center;
 	-moz-border-radius: .5em;
 	-webkit-border-radius: .5em;
-	padding: 1em 0;
-	margin-top: 1em;
+	padding: 1em 0 .1em;
 }
 
 p.sponsor_label {	
