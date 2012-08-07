@@ -420,10 +420,10 @@ div.sidebar a {
 
 div.sidebar ul.xoxo {
 	display: block;
-	padding: 1em;
+	padding: .6em;
 	background-color: #222;
   background-color: rgba(34, 34, 34, 0.9);
-	width: 200px;
+	width: 210px;
 	margin: 0 auto 1em auto;
 	-moz-border-radius: .5em;
 	-webkit-border-radius: .5em;
@@ -446,9 +446,10 @@ div.sidebar ul.xoxo ul.xoxo {
 	color: black;
 	background: #fff;	
 	text-align: center;
-	-moz-border-radius: .5em;
-	-webkit-border-radius: .5em;
-	padding: 1em 0 .1em;
+	-moz-border-radius: .2em;
+	-webkit-border-radius: .2em;
+	padding: 1em 0 1em;
+  margin-bottom: -1em;
 }
 
 p.sponsor_label {	
