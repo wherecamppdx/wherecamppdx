@@ -211,7 +211,7 @@ padding:0;
 
 
 body {
-	background: #f6f4cc url(i/background.png) no-repeat scroll center top;
+	background: #000 url(i/background.png) no-repeat scroll center top;
 	font-family: "Helvetica Neue", "Arial", "Helvetica"
 }
 
@@ -303,13 +303,13 @@ div#menu ul a.register {
 }
 
 div#menu ul a.register:hover {
-  background: #a00;
+  background: #c844a8;
   /* background: rgba(236,144,0,0.75);*/
 }
 
 div#menu ul a.active {
 	background: #fff;
-  color: #a00;
+  color: #c844a8;
 }
 
 div#menu ul a:hover {
@@ -415,7 +415,7 @@ div.sidebar {
 }
 
 div.sidebar a {
-	color: #fbfbb3;
+	color: #c844a8;
 }
 
 div.sidebar ul.xoxo {
