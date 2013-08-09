@@ -211,7 +211,7 @@ padding:0;
 
 
 body {
-	background: #f6f4cc url(i/background.jpg) no-repeat scroll center top;
+	background: #f6f4cc url(i/background.png) no-repeat scroll center top;
 	font-family: "Helvetica Neue", "Arial", "Helvetica"
 }
 
@@ -222,7 +222,7 @@ body {
 }
 
 #header {
-	background: url('i/header.png') no-repeat 115px 7px;
+	background: url('i/header.png') no-repeat 125px 7px;
 	height: 246px;
 	position: relative;
 	z-index: 5;
@@ -231,7 +231,7 @@ body {
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   #header {
     background-image: url('i/header@2x.png');
-    background-size: 694px 219px;
+    background-size: 694px 216px;
   }
 }
 

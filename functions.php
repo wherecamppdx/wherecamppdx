@@ -518,10 +518,10 @@ function wordcamp_global_nav() {
       <li><a href='/' class='first{$active['news']}'>News</a></li>
       <li><a href='/about/'{$active['about']}>About</a></li>
       <li><a href='/specifics/'{$active['specifics']}>Specifics</a></li>
-      <li><a href='/wiki/2012/sessions/' class='{$active['sessions']}'>Sessions</a></li>
+      <li><a href='/wiki/2013/sessions/' class='{$active['sessions']}'>Sessions</a></li>
       <li><a href='/sponsorships/'{$active['sponsorships']} class='{$active['sponsorships']}'>Sponsors</a></li>
-      <li><a href='/wiki/2012' class='last'>Wiki</a></li>
-      <li><a href='http://wherecamppdx5.eventbrite.com/' class='register'>Register now!</a></li>
+      <li><a href='/wiki/2013' class='last'>Wiki</a></li>
+      <li><a href='http://wherecamppdx6.eventbrite.com/' class='register'>Register now!</a></li>
     </ul>
   </div>
 QQ;
