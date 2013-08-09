@@ -296,14 +296,14 @@ div#menu ul a.register {
   margin-left: .5em;
 	-moz-border-radius: .5em;
 	-webkit-border-radius: .5em;
-  background: #000;
+  background: #2fc0df;
   background: rgba(0,0,0,0.75);
   border: 0;
   color: #fff;
 }
 
 div#menu ul a.register:hover {
-  background: #2fc0df;
+  background: #c844a8;
   /* background: rgba(236,144,0,0.75);*/
 }
 
