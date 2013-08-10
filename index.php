@@ -1,5 +1,37 @@
 <?php get_header() ?>
+  <?php if(is_front_page()) { ?>
+    <div id="event-specifics">
+      <div class="day">
+        <h3>Friday, September 27</h3>
+        <ul><li>Opening Party – Time &amp; Location TBD</li></ul>
+      </div>
+      <div class="day">
+        <h3>Saturday, September 28</h3>
+        <ul><li>Unconference Day – <a href="http://www.oregonmetro.gov/index.cfm/go/by.web/id=3315">Metro Regional Center</a></li></ul>
+      </div>
+      <div class="day">
+        <h3>Sunday, September 29</h3>
+        <ul><li>Games and Activites – Various Locations</li></ul>
+      </div>
+    </div>
+    <div id="what-is-wherecamp">
+      <h2>What's a WhereCamp?</h2>
 
+      <p><a href="http://wherecamp.org">WhereCamps</a> are <a
+        href="http://en.wikipedia.org/wiki/Unconference">unconferences</a>
+      that aim to connect geo-enthusiasts, developers, social place hackers,
+      artists, activists, grad students, geographers, earth scientists and
+      anybody else who wants to "know their place".</p>
+
+      <p>Popular topics include social cartography, software and
+      hardware, context awareness, mobile experimentation,
+      humanitarian mapping efforts, food webs and local food
+      transparency, transit, psychogeography, geo games, paper
+      maps, and place hacking.</p>
+    </div>
+
+    <div id="background-credit">Our 2013 background map is <a href="http://dealloc.me/2013/06/30/the-making-of-pdx.html"><em>Portland, Oregon: The Age of a City</em></a> by <a href="http://labratrevenge.com/">Justin Palmer</a></div>
+  <?php } ?>
 	<div id="container">
 		<div id="content">
 
@@ -8,7 +40,9 @@
 				<div class="nav-next"><?php previous_posts_link(__( 'Newer posts <span class="meta-nav">&raquo;</span>', 'sandbox' )) ?></div>
 			</div>
 
-<?php while ( have_posts() ) : the_post() ?>
+
+
+    <?php while ( have_posts() ) : the_post() ?>
 
 			<div id="post-<?php the_ID() ?>" class="<?php sandbox_post_class() ?>">
 				<h2 class="entry-title"><a href="<?php the_permalink() ?>" title="<?php printf( __('Permalink to %s', 'sandbox'), the_title_attribute('echo=0') ) ?>" rel="bookmark"><?php the_title() ?></a></h2>
@@ -39,7 +73,8 @@
 			</div>
 
 		</div><!-- #content -->
+
+    <?php get_sidebar() ?>
 	</div><!-- #container -->
 
-<?php get_sidebar() ?>
 <?php get_footer() ?>
