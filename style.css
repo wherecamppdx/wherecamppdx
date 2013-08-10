@@ -15,6 +15,8 @@ TAGS: sandbox, microformats, hcard, hatom, xoxo, widgets, blank slate, starter t
 
 /* Two-column with sidebar on left from the /examples/ folder  */
 
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
 @import url('examples/2c-l.css');
 
 div#content {
@@ -222,36 +224,45 @@ body {
 }
 
 #header {
-	background: url('i/header.png') no-repeat 125px 7px;
-	height: 246px;
-	position: relative;
-	z-index: 5;
+  background: url('i/header.png') no-repeat 115px 0px;
+  height: 246px;
+  position: relative;
+  z-index: 5;
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   #header {
     background-image: url('i/header@2x.png');
-    background-size: 694px 216px;
+    background-size: 236px 236px;
   }
 }
 
 #blog-title {
-	position: absolute;
-	top: 90px;
-	left: 410px;
-	text-align: left;
+  font-family: "Roboto Slab", "Rockwell", "Archer", "Tahoma", "sans";
+  font-size: 3em;
+  line-height: 1;
+  position: absolute;
+  top: 41px;
+  left: 355px;
+  text-align: left;
 }
 
 #blog-title a {
-	display: block;
-	width: 470px;
-	height: 80px;
-	overflow: hidden;
-	text-indent: -999px;
+  color: #fff;
+  text-decoration: none;
 }
 
 #blog-description {
-	display: none;
+  font-family: "Roboto Condensed";
+  position: absolute;
+  top: 119px;
+  left: 375px;
+  color: #000;
+  font-size: 1.3em;
+}
+
+#blog-description .arrow {
+  color: #fff;
 }
 
 div#menu {
