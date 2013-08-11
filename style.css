@@ -394,16 +394,7 @@ div#menu ul a:hover {
 	background: #fff;
 }
 
-#container {
-  position: relative;
-}
-
 #content {
-	margin: 0 0 0 200px;
-  width: 685px;
-  position: absolute;
-  left: 75px;
-  top: 0;
   z-index: 1;
 }
 
@@ -495,8 +486,7 @@ h2.entry-title a, h3.entry-title a {
 }
 
 div.sidebar {
-	width: 275px;
-	color: #fff;
+  color: #fff;
 }
 
 div.sidebar a {
@@ -519,12 +509,10 @@ div.sidebar ul.xoxo ul.xoxo {
   background: transparent;
 }
 
-
 #footer {
-	display: none;
 }
 
-#nav-above, #nav-below {
+#nav-above {
 	display: none;
 }
 
