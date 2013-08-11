@@ -1,18 +1,21 @@
 <?php get_header() ?>
   <?php if(is_front_page()) { ?>
     <div id="event-specifics">
-      <div class="day">
-        <h3>Friday, September 27</h3>
-        <ul><li>Opening Party – Time &amp; Location TBD</li></ul>
+      <div id="mini-schedule">
+        <div class="day">
+          <h3>Friday, September 27</h3>
+          <ul><li>Opening Party – Time &amp; Location TBD</li></ul>
+        </div>
+        <div class="day">
+          <h3>Saturday, September 28</h3>
+          <ul><li>Unconference Day – <a href="http://www.oregonmetro.gov/index.cfm/go/by.web/id=3315">Metro Regional Center</a></li></ul>
+        </div>
+        <div class="day">
+          <h3>Sunday, September 29</h3>
+          <ul><li>Games and Activites – Various Locations</li></ul>
+        </div>
       </div>
-      <div class="day">
-        <h3>Saturday, September 28</h3>
-        <ul><li>Unconference Day – <a href="http://www.oregonmetro.gov/index.cfm/go/by.web/id=3315">Metro Regional Center</a></li></ul>
-      </div>
-      <div class="day">
-        <h3>Sunday, September 29</h3>
-        <ul><li>Games and Activites – Various Locations</li></ul>
-      </div>
+      <!--<a class="register" href="http://wherecamppdx6.eventbrite.com/">Register for free today!</a>-->
     </div>
     <div id="what-is-wherecamp">
       <h2>What's a WhereCamp?</h2>

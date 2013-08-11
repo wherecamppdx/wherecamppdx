@@ -262,7 +262,7 @@ body {
   color: #fff;
 }
 
-#event-specifics, #what-is-wherecamp {
+#mini-schedule, #what-is-wherecamp {
   padding: 1em;
   -webkit-border-radius: .5em;
   -moz-border-radius: .5em;
@@ -272,24 +272,28 @@ body {
 #event-specifics {
   float: left;
   margin: 0 0 1em 23px;
-  width: 300px;
+  width: 340px;
+}
+
+#mini-schedule {
   background: #00bc91;
   background: rgba(0, 188, 145, 0.9);
   color: #fff;
   font-size: .9em;
+  margin-bottom: .5em;
 }
 
-#event-specifics h3 {
+#mini-schedule h3 {
   margin: 0;
   font-size: 1em;
 }
 
-#event-specifics ul {
+#mini-schedule ul {
   margin: .5em 0;
   padding-left: 1.25em;
 }
 
-#event-specifics a {
+#mini-schedule a {
   color: #fff;
 }
 
@@ -330,6 +334,7 @@ div#menu {
 	z-index: 6;
 }
 
+#event-specifics a.register,
 div#menu ul a {
 	line-height: 2.5em;
 	display:block;
@@ -361,8 +366,8 @@ div#menu ul a.last {
   border-bottom-right-radius: .5em;
 }
 
+#event-specifics a.register,
 div#menu ul a.register {
-  margin-left: .5em;
   -webkit-border-radius: .5em;
   -moz-border-radius: .5em;
   border-radius: .5em;
@@ -371,6 +376,11 @@ div#menu ul a.register {
   color: #fff;
 }
 
+div#menu ul a.register {
+  margin-left: .5em;
+}
+
+#event-specifics a.register:hover,
 div#menu ul a.register:hover {
   background: #c844a8;
 }
