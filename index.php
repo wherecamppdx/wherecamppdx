@@ -4,15 +4,38 @@
       <div id="mini-schedule">
         <div class="day">
           <h3>Friday, September 27</h3>
-          <ul><li>Opening Party – Time &amp; Location TBD</li></ul>
+          <ul>
+            <li>
+              <a href="http://wherecamppdx.org/2013/09/26/join-us-tomorrow-for-our-opening-party/">Opening Party</a>, sponsored by <a href="http://esri.com">Esri</a><br>
+
+              6–9pm at <a href="https://temboo.com/">Temboo</a> / <a href="http://vimeo.com/63625331">NXT Industries</a><br>
+              <a href="https://www.google.com/maps/preview#!q=+123+NW+2nd+Ave%2C+Portland&data=!4m10!1m9!4m8!1m3!1d190015!2d-122.654422!3d45.5434085!3m2!1i1190!2i816!4f13.1">123 NW 2nd Ave</a>
+            </li>
+          </ul>
         </div>
         <div class="day">
           <h3>Saturday, September 28</h3>
-          <ul><li>Unconference Day – <a href="http://www.oregonmetro.gov/index.cfm/go/by.web/id=3315">Metro Regional Center</a></li></ul>
+          <ul>
+            <li>
+              Unconference Day!<br>
+              10am–6pm at <a href="http://www.oregonmetro.gov/index.cfm/go/by.web/id=3315">Metro Regional Center</a><br>
+              <a href="https://www.google.com/maps/preview#!q=Metro+Regional+Center%2C+Northeast+Grand+Avenue%2C+Portland%2C+OR&data=!4m11!1m10!2i21!4m8!1m3!1d190015!2d-122.654422!3d45.5434085!3m2!1i1190!2i816!4f13.1">600 NE Grand</a>
+            </li>
+          </ul>
         </div>
         <div class="day">
           <h3>Sunday, September 29</h3>
-          <ul><li>Games and Activites – Various Locations</li></ul>
+          <ul>
+            <li>
+              Fun and mapmaking!
+              10am–4pm at <a href="http://fluxlab.io/">Flux Hacker Space</a>
+              <a href="https://www.google.com/maps/preview#!q=422+NW+Couch+St%2C+Portland%2C+OR&data=!4m10!1m9!4m8!1m3!1d11879!2d-122.660508!3d45.5275313!3m2!1i1190!2i816!4f13.1">412 NW Couch #222</a>
+
+            </li>
+            <li>
+              MaptimePDX – 1–4pm at Flux
+            </li>
+          </ul>
         </div>
       </div>
       <!--<a class="register" href="http://wherecamppdx6.eventbrite.com/">Register for free today!</a>-->
