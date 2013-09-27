@@ -30,10 +30,9 @@
               Fun and mapmaking!<br>
               10am–4pm at <a href="http://fluxlab.io/">Flux Hacker Space</a><br>
               <a href="https://www.google.com/maps/preview#!q=422+NW+Couch+St%2C+Portland%2C+OR&data=!4m10!1m9!4m8!1m3!1d11879!2d-122.660508!3d45.5275313!3m2!1i1190!2i816!4f13.1">412 NW Couch #222</a>
-
             </li>
             <li>
-              MaptimePDX – 1–4pm at Flux
+              <a href="https://twitter.com/maptimepdx">MaptimePDX</a> – 1–4pm at Flux
             </li>
           </ul>
         </div>
