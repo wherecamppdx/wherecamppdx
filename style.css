@@ -211,6 +211,7 @@ padding:0;
 
 body {
 	background: #f1c98d url(i/background.jpg) no-repeat scroll center top;
+  background-size: 1800px 3000px;
 	font-family: "Helvetica Neue", "Arial", "Helvetica"
 }
 
