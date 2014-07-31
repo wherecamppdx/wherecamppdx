@@ -3,7 +3,7 @@
 <head profile="http://gmpg.org/xfn/11">
 	<title><?php wp_title( '-', true, 'right' ); echo esc_html( get_bloginfo('name'), 1 ) ?></title>
 	<meta http-equiv="content-type" content="<?php bloginfo('html_type') ?>; charset=<?php bloginfo('charset') ?>" />
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url') ?>" />
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url') ?>?2014" />
 	<!--[if lte IE 6]>
 	<style type="text/css" media="screen">
 	  #header {
