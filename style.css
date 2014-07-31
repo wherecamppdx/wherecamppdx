@@ -214,6 +214,10 @@ body {
 	font-family: "Helvetica Neue", "Arial", "Helvetica"
 }
 
+body.loggedin {
+  background-position-y: 32px;
+}
+
 #wrapper {
 	width: 960px;
 	margin: 0 auto 20px;
