@@ -12,7 +12,7 @@
           </ul>
         </div>
         <div class="day">
-          <h3>Saturday, September 28</h3>
+          <h3>Saturday, September 13</h3>
           <ul>
             <li>
               Unconference Day!<br>
@@ -22,7 +22,7 @@
           </ul>
         </div>
         <div class="day">
-          <h3>Sunday, September 29</h3>
+          <h3>Sunday, September 14</h3>
           <ul>
             <li>
               Fun and mapmaking!<br>
