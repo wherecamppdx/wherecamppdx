@@ -299,7 +299,10 @@ body.loggedin {
 }
 
 #mini-schedule a,
-#background-credit a,
+#background-credit a {
+  color: #fff
+}
+
 #what-is-wherecamp a {
   color: #020c13;
 }
