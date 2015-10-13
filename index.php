@@ -3,35 +3,17 @@
     <div id="event-specifics">
       <div id="mini-schedule">
         <div class="day">
-          <h3>Friday, September 12</h3>
-          <ul>
-            <li>
-              Opening Party<br>
-              6–9pm
-            </li>
-          </ul>
-        </div>
-        <div class="day">
-          <h3>Saturday, September 13</h3>
+          <h3>Saturday, October 31</h3>
           <ul>
             <li>
               Unconference Day!<br>
-              10am–6pm at <a href="http://eliotcenterportland.org">The Eliot Center</a><br>
-              <a href="https://www.google.com/maps/place/The+Eliot+Center/@45.518643,-122.685952,17z/data=!3m1!4b1!4m5!1m2!2m1!1seliot+center!3m1!1s0x54950a1b7100ec67:0xf35a79e680d5ba54">1226 SW Salmon Street</a>
-            </li>
-          </ul>
-        </div>
-        <div class="day">
-          <h3>Sunday, September 14</h3>
-          <ul>
-            <li>
-              Fun and mapmaking!<br>
-              10am–4pm at various locations
+              9am–4pm at <a href="http://www.oregonmetro.gov/index.cfm/go/by.web/id=3315">Metro Regional Center</a><br>
+              <a href="https://www.google.com/maps/preview#!q=Metro+Regional+Center%2C+Northeast+Grand+Avenue%2C+Portland%2C+OR&data=!4m11!1m10!2i21!4m8!1m3!1d190015!2d-122.654422!3d45.5434085!3m2!1i1190!2i816!4f13.1">600 NE Grand, Portland</a>
             </li>
           </ul>
         </div>
       </div>
-      <!--<a class="register" href="http://wherecamppdx7.eventbrite.com/">Register for free today!</a>-->
+      <!--<a class="register" href="http://wherecamppdx8.eventbrite.com/">Register for free today!</a>-->
     </div>
     <div id="what-is-wherecamp">
       <h2>What's a WhereCamp?</h2>
@@ -47,15 +29,9 @@
       humanitarian mapping efforts, food webs and local food
       transparency, transit, psychogeography, geo games, paper
       maps, and place hacking.</p>
-
-      <h2>WhereCampPDX + FOSS4G</h2>
-
-      <p>This year's WhereCampPDX is being held in conjunction with 
-      <a href="https://2014.foss4g.org">FOSS4G</a>, the largest global gathering 
-      focused on open source geospatial software.
     </div>
 
-    <div id="background-credit">Our 2014 background map is <a href="https://api.tiles.mapbox.com/v4/examples.xqwfusor/page.html?access_token=pk.eyJ1IjoiZ3JhZmEiLCJhIjoiU2U2QnIzUSJ9.4LnG05Ptvi1sUQ8t68rfgw#11/45.5280/237.3116"><em>Woodcut</em></a> from <a href="http://mapbox.com/">MapBox</a></div>
+    <div id="background-credit">Our 2015 background map uses 1852 cadastral maps from the <a href="https://www.portlandoregon.gov/bps/44016">City of Portland Archives</a></div>
   <?php } ?>
 	<div id="container">
 		<div id="content">
