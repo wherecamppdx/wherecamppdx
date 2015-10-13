@@ -13,7 +13,7 @@
           </ul>
         </div>
       </div>
-      <!--<a class="register" href="http://wherecamppdx8.eventbrite.com/">Register for free today!</a>-->
+      <!--<a class="register" href="http://wherecamppdx-8.eventbrite.com/">Register for free today!</a>-->
     </div>
     <div id="what-is-wherecamp">
       <h2>What's a WhereCamp?</h2>
